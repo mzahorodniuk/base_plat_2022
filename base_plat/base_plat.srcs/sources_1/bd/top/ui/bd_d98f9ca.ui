@@ -1,0 +1,50 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.676596",
+   "Default View_TopLeft":"-390,-10",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r4  2019-12-20 bk=1.5203 VDI=41 GEI=36 GUI=JA:10.0 TLS
+#  -string -flagsOSRD
+preplace port DPU0_M_AXI_DATA0 -pg 1 -lvl 0 -x 0 -y 510 -defaultsOSRD
+preplace port DPU0_M_AXI_DATA1 -pg 1 -lvl 0 -x 0 -y 270 -defaultsOSRD
+preplace port DPU0_M_AXI_INSTR -pg 1 -lvl 0 -x 0 -y 50 -defaultsOSRD
+preplace port M_AXI_HP0_FPD -pg 1 -lvl 2 -x 360 -y 690 -defaultsOSRD
+preplace port M_AXI_HP1_FPD -pg 1 -lvl 2 -x 360 -y 330 -defaultsOSRD
+preplace port M_AXI_LPD -pg 1 -lvl 2 -x 360 -y 110 -defaultsOSRD
+preplace port S01_AXI -pg 1 -lvl 0 -x 0 -y 530 -defaultsOSRD
+preplace port S02_AXI -pg 1 -lvl 0 -x 0 -y 550 -defaultsOSRD
+preplace port S03_AXI -pg 1 -lvl 0 -x 0 -y 570 -defaultsOSRD
+preplace port S04_AXI -pg 1 -lvl 0 -x 0 -y 590 -defaultsOSRD
+preplace port port-id_CLK -pg 1 -lvl 0 -x 0 -y 290 -defaultsOSRD
+preplace port port-id_GHP_CLK_I -pg 1 -lvl 0 -x 0 -y 630 -defaultsOSRD
+preplace port port-id_GHP_CLK_O -pg 1 -lvl 2 -x 360 -y 450 -defaultsOSRD
+preplace port port-id_GHP_RSTn -pg 1 -lvl 0 -x 0 -y 650 -defaultsOSRD
+preplace port port-id_RSTn_INTC -pg 1 -lvl 0 -x 0 -y 310 -defaultsOSRD
+preplace port port-id_RSTn_PERI -pg 1 -lvl 0 -x 0 -y 610 -defaultsOSRD
+preplace port port-id_pl_clk0 -pg 1 -lvl 0 -x 0 -y 730 -defaultsOSRD
+preplace port port-id_peripheral_aresetn -pg 1 -lvl 0 -x 0 -y 750 -defaultsOSRD
+preplace inst dpu_intc_M_AXI_HP0_FPD -pg 1 -lvl 1 -x 200 -y 690 -defaultsOSRD
+preplace inst dpu_intc_M_AXI_HP1_FPD -pg 1 -lvl 1 -x 200 -y 330 -defaultsOSRD
+preplace inst dpu_intc_M_AXI_LPD -pg 1 -lvl 1 -x 200 -y 110 -defaultsOSRD
+preplace netloc CLK_1 1 0 1 40 70n
+preplace netloc GHP_CLK_I_1 1 0 2 50 450 NJ
+preplace netloc GHP_RSTn_1 1 0 1 30 170n
+preplace netloc RSTn_INTC_1 1 0 1 60 90n
+preplace netloc RSTn_PERI_1 1 0 1 20 130n
+preplace netloc S01_ACLK_1 1 0 1 50 730n
+preplace netloc S01_ARESETN_1 1 0 1 20 750n
+preplace netloc Conn1 1 0 1 NJ 530
+preplace netloc Conn2 1 0 1 NJ 550
+preplace netloc Conn3 1 0 1 NJ 570
+preplace netloc Conn4 1 0 1 NJ 590
+preplace netloc DPU0_M_AXI_DATA0_1 1 0 1 NJ 510
+preplace netloc DPU0_M_AXI_DATA1_1 1 0 1 NJ 270
+preplace netloc DPU0_M_AXI_INSTR_1 1 0 1 NJ 50
+preplace netloc dpu_intc_M_AXI_HP0_FPD_M00_AXI 1 1 1 NJ 690
+preplace netloc dpu_intc_M_AXI_HP1_FPD_M00_AXI 1 1 1 NJ 330
+preplace netloc dpu_intc_M_AXI_LPD_M00_AXI 1 1 1 NJ 110
+levelinfo -pg 1 0 200 360
+pagesize -pg 1 -db -bbox -sgen -180 0 510 920
+"
+}
+

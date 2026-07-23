@@ -1,0 +1,39 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"5.0",
+   "Default View_TopLeft":"1165,172",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r4  2019-12-20 bk=1.5203 VDI=41 GEI=36 GUI=JA:10.0 TLS
+#  -string -flagsOSRD
+preplace port CAN_0_0 -pg 1 -lvl 6 -x 2300 -y 610 -defaultsOSRD
+preplace port CAN_1_0 -pg 1 -lvl 6 -x 2300 -y 640 -defaultsOSRD
+preplace inst dpu_concat_irq -pg 1 -lvl 4 -x 1350 -y 720 -defaultsOSRD
+preplace inst hier_dpu -pg 1 -lvl 4 -x 1350 -y 350 -defaultsOSRD
+preplace inst rst_gen_ghp -pg 1 -lvl 3 -x 900 -y 110 -defaultsOSRD
+preplace inst rst_gen_reg -pg 1 -lvl 1 -x 210 -y 600 -defaultsOSRD
+preplace inst zynq_ultra_ps_e -pg 1 -lvl 5 -x 1896 -y 660 -defaultsOSRD
+preplace inst disparity_kernel_0 -pg 1 -lvl 3 -x 900 -y 310 -defaultsOSRD
+preplace inst smartconnect_0 -pg 1 -lvl 2 -x 550 -y 620 -defaultsOSRD
+preplace netloc dpu_concat_irq_dout 1 4 1 NJ 720
+preplace netloc hier_dpu_GHP_CLK_O 1 4 1 1500 370n
+preplace netloc hier_dpu_INTR 1 3 2 1120 188 1490
+preplace netloc rst_gen_ghp_peripheral_aresetn 1 3 1 1080 150n
+preplace netloc rst_gen_reg_peripheral_aresetn 1 1 3 390 410 720 410 1080
+preplace netloc zynq_ultra_ps_e_pl_clk0 1 0 6 30 500 400 480 710 480 1100 510 1490 800 2250
+preplace netloc zynq_ultra_ps_e_pl_clk1 1 2 4 720 210 1110 178 1530J 180 2270
+preplace netloc zynq_ultra_ps_e_pl_resetn0 1 0 6 20 490 NJ 490 700 500 NJ 500 NJ 500 2250
+preplace netloc hier_dpu_M_AXI_HP0_FPD 1 4 1 1530 310n
+preplace netloc hier_dpu_M_AXI_HP1_FPD 1 4 1 1520 330n
+preplace netloc hier_dpu_M_AXI_LPD 1 4 1 1510 350n
+preplace netloc smartconnect_0_M00_AXI 1 2 1 690 290n
+preplace netloc smartconnect_0_M01_AXI 1 2 2 NJ 630 1090
+preplace netloc zynq_ultra_ps_e_CAN_0 1 5 1 2280J 610n
+preplace netloc zynq_ultra_ps_e_CAN_1 1 5 1 NJ 640
+preplace netloc zynq_ultra_ps_e_M_AXI_HPM0_LPD 1 1 5 410 10 NJ 10 NJ 10 NJ 10 2260
+levelinfo -pg 1 0 210 550 900 1350 1896 2300
+pagesize -pg 1 -db -bbox -sgen 0 0 2410 1190
+"
+}
+{
+   "da_axi4_cnt":"6"
+}

@@ -1,0 +1,31 @@
+# Vivado generated (regenerate by opening the .xpr)
+*.cache/
+*.gen/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+*.jobs/
+.Xil/
+# logs / journals / reports / checkpoints / bitstreams
+*.jou
+*.log
+*.str
+*.rpt
+*.pb
+*.dcp
+*.bit
+*.ltx
+*.bin
+vivado*.backup.*
+usage_statistics_webtalk.*
+# sim outputs
+*.wdb
+*.vcd
+*.ghw
+xsim.dir/
+work-obj*.cf
+# python
+__pycache__/
+*.pyc
+.venv/
